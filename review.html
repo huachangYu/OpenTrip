@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Review</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Textile Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+              Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+        <script src="js/Connector.js" type="text/javascript"></script>
+        <link rel="icon" href="images/opentrip.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/map.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="https://webapi.amap.com/maps?v=1.4.14&key=7fe86ea5fc966e4c790f2dbf6e9a0023"></script>
+        <script src="js/reviewjs.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <div class="banner1">
+            <div class="container">
+                <div class="head-nav">
+                    <span class="menu"></span>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="review.html">REVIEW</a></li>
+                        <li><a href="write.html">WRITE</a></li>
+                        <li><a href="404.html">PRODUCTS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- header -->
+        <div class="container">
+            <div class="journalBox">
+                <div><label class="journalTitleLabel">标题</label></div>
+                <div><input id="reviewTitle" type="text" class="journalTitleInput"/></div>
+                <div><label class="journalTitleLabel">位置</label></div>
+                <div>
+                    <label>经度</label><input type="text" id="authorLon" readonly="readonly" />
+                    <label>纬度</label><input type="text" id="authorLat" readonly="readonly" />
+                </div>
+                <div>
+                    <label class="journalTitleLabel">打分</label>
+                    <ul>
+                        <li>
+                            <label>环境：</label>
+                            <select id="SelectScoreEnvironment" class="scoreSelect">
+                                <option value="1" class="scoreOption">1</option>
+                                <option value="2" class="scoreOption">2</option>
+                                <option value="3" class="scoreOption">3</option>
+                                <option value="4" class="scoreOption">4</option>
+                                <option value="5" class="scoreOption">5</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label>服务：</label>
+                            <select id="SelectScoreServe" class="scoreSelect">
+                                <option value="1" class="scoreOption">1</option>
+                                <option value="2" class="scoreOption">2</option>
+                                <option value="3" class="scoreOption">3</option>
+                                <option value="4" class="scoreOption">4</option>
+                                <option value="5" class="scoreOption">5</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label>心情：</label>
+                            <select id="SelectScoreFeeling" class="scoreSelect">
+                                <option value="1" class="scoreOption">1</option>
+                                <option value="2" class="scoreOption">2</option>
+                                <option value="3" class="scoreOption">3</option>
+                                <option value="4" class="scoreOption">4</option>
+                                <option value="5" class="scoreOption">5</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div><label class="journalTitleLabel">评论</label></div>
+                <div><textarea id="reviewContent"></textarea></div>
+                <div><input type="checkbox" id="isUnamed"><label>是否匿名</label></div>
+                <div><button onclick="insertReview()" class="btnSubmit">提交</button></div>
+            </div>
+            <div class="right_map">
+                <label class="journalTitleLabel">我的位置</label><p>如何和你的位置不符，请拖动箭头至你的位置</p>
+                <div id="yourPositionMap" ></div>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="footer">
+            <div class="container">
+                <div class="bottom">
+                    <p>Copyright &copy; 2019.Yu huachang All rights reserved.<a target="_blank" href="#"></a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

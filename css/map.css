@@ -1,0 +1,206 @@
+#articlesBox{
+}
+
+button.navigationTool{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button.navigationSearchTool{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#searchTypeLabel{
+    font-size: 20px;
+    color: green;
+}
+
+#showType{
+    padding: 2px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input.searchBox{
+    padding:5px 15px; 
+    border:2px black solid;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.article_class{
+    height: 150px;
+    border: 2px solid red;
+
+}
+.contentBox{
+    background-size: cover;
+    min-height: 650px;
+    text-align: left;
+}
+.map{
+    float: right;
+    width: 70%;
+    min-height: 650px;
+    text-align: left;
+}
+.navigation{
+    float: left;
+    width: 30%;
+    min-height: 650px;
+    text-align: left;
+}
+.searcResultDiv{
+    border: 1px solid yellowgreen;
+    font-style: initial;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+#amap{
+    height: 650px;
+    width: 100%;
+}
+
+/*DlgArticle*/
+#ArticleButtom{
+    border: 2px solid #5bc0de;
+}
+
+
+/*Services*/
+
+.btnSubmit{
+    padding: 12px 15px;
+    color: #FFF;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.34);
+    background: #b6bf00;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 0px;
+}
+
+#articleContent{
+    width: 100%;
+    height: 250px;
+    resize: none;
+}
+
+.journalBox{
+    float: left;
+    width: 60%;
+    height: 700px;
+    resize: none;
+
+}
+
+.journalTitleLabel{
+    color: #b6bf00;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(245, 238, 243, 0.15);
+    margin-bottom: 10px;
+}
+
+.journalTitleInput{
+    width: 100%;
+    height: 30px;
+    resize: none;
+}
+
+#yourPositionMap{
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+
+
+.right_map{
+    float: right;
+    width: 30%;
+}
+
+/*Review*/
+
+#reviewContent{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.scoreSelect{
+    width: 100px;
+    text-align: center;
+    text-align-last: center;
+}
+
+.scoreOption{
+    width: 100px;
+    text-align: center;
+    text-align-last: center;
+}
+
+/*contact*/
+label.contactLabel{
+    color: red;
+    font-size: 20px;
+}
+
+/*Dialog*/
+.DlgTitle{
+    ont-size: 15px;
+    color: black;
+}
+.DlgTime{
+    font-size: 10px;
+    font-family: auto;
+    font-weight: 400;
+}
+.DlgWriter{
+    font-size: 13px;
+    font-family: auto;
+    font-weight: 500;
+}
+.DlgContent{
+    border: 2px solid blueviolet;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.DlgScore{    
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
