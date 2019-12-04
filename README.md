@@ -1,3 +1,3 @@
 # OpenTrip
 OpenTrip
-webgis大作业，一天半突击完成，很菜
+webgis大作业，突击划水完成，很菜
